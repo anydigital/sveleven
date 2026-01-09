@@ -5,9 +5,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm run 11ty           && npm run tw -- --minify",
     "11ty": "NODE_OPTIONS='--preserve-symlinks' eleventy",
     "tw": "npx @tailwindcss/cli -i ./src/_template/styles.css -o ./_site/styles.css",
+    "build": "npm run 11ty           && npm run tw -- --minify",
     "start": "npm run 11ty -- --serve & npm run tw -- --watch",
     "clean": "rm -r ./_site",
     "prerestart": "npm run clean",
