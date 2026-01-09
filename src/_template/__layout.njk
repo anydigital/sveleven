@@ -1,0 +1,16 @@
+{% set title = '' %}{# @TODO: https://github.com/anydigital/bricks/issues/36 #}
+{% extends 'bricks/__html.njk' %}
+
+{% block head %}
+{% bricksDependencies [
+  'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css',
+  'https://cdn.jsdelivr.net/npm/@anydigital/bricks@^1.0.0-alpha/dist/bricks.min.css',
+  '/styles.css'
+] %}
+{% endblock %}
+
+{% block body %}
+<main class="prose">
+  {{ content | safe }}
+</main>
+{% endblock %}

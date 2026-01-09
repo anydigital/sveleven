@@ -1,0 +1,39 @@
+{
+  "name": "@anydigital/sveleven",
+  "version": "1.0.0-dev",
+  "description": "A truly minimal, one-click Eleventy starter (with CMS included!)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "11ty": "NODE_OPTIONS='--preserve-symlinks' eleventy",
+    "tw": "npx @tailwindcss/cli -i ./src/_template/styles.css -o ./_site/styles.css",
+    "build": "npm run 11ty           && npm run tw -- --minify",
+    "start": "npm run 11ty -- --serve & npm run tw -- --watch",
+    "clean": "rm -r ./_site",
+    "prerestart": "npm run clean",
+    "stage": "npm run clean; npm run build && serve ./_site",
+    "debug:11ty": "DEBUG=* npm run 11ty",
+    "debug:tw": "  DEBUG=* npm run tw"
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "starter",
+    "cms"
+  ],
+  "author": "Anton Staroverov",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "@anydigital/bricks": "^1.0.0-alpha.9",
+    "@anydigital/eleventy-bricks": "^1.0.0-alpha.14",
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.19",
+    "js-yaml": "^3.14.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "serve": "^14.2.5",
+    "tailwindcss": "^4.1.18"
+  }
+}
