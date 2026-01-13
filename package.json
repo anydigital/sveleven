@@ -24,16 +24,18 @@
   "author": "Anton Staroverov",
   "license": "MIT",
   "devDependencies": {
+    "serve": "^14.2.5"
+  },
+  "dependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-navigation": "^1.0.4",
+    "@11ty/eleventy-navigation": "^1.0.5",
     "@anydigital/bricks": "^1.0.0-alpha.10",
     "@anydigital/eleventy-bricks": "^1.0.0-alpha.14",
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^3.14.2",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
-    "serve": "^14.2.5",
     "tailwindcss": "^4.1.18"
   }
 }
