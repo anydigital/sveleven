@@ -9,12 +9,6 @@
     "build": "npm -w do run build",
     "start": "npm -w do run start"
   },
-  "keywords": [
-    "eleventy",
-    "11ty",
-    "starter",
-    "cms"
-  ],
   "author": "Anton Staroverov",
   "license": "MIT",
   "devDependencies": {
