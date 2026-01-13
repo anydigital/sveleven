@@ -4,16 +4,10 @@
   "description": "A truly minimal, one-click Eleventy starter (with CMS included!)",
   "private": true,
   "type": "module",
+  "workspaces": ["do"],
   "scripts": {
-    "11ty": "NODE_OPTIONS='--preserve-symlinks' eleventy",
-    "tw": "npx @tailwindcss/cli -i ./src/_template/styles.css -o ./_site/styles.css",
-    "build": "npm run 11ty           && npm run tw -- --minify",
-    "start": "npm run 11ty -- --serve & npm run tw -- --watch",
-    "clean": "rm -r ./_site",
-    "prerestart": "npm run clean",
-    "stage": "npm run clean; npm run build && serve ./_site",
-    "debug:11ty": "DEBUG=* npm run 11ty",
-    "debug:tw": "  DEBUG=* npm run tw"
+    "build": "npm -w do run build",
+    "start": "npm -w do run start"
   },
   "keywords": [
     "eleventy",
