@@ -8,8 +8,9 @@
     "do"
   ],
   "scripts": {
-    "build": "npm -w do run build",
-    "start": "npm -w do run start"
+    "start": "npm -w do run start",
+    "stage": "npm -w do run stage",
+    "build": "npm -w do run build"
   },
   "author": "Anton Staroverov",
   "license": "MIT",
