@@ -4,7 +4,17 @@ A truly minimal, one-click Eleventy starter (with CMS included!)
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
 
-## Quick Start
+## Killer Features
+
+- **Thin-client architecture**
+    - delegate as much as possible to optional reusable utility package [eleventy-bricks](https://github.com/anydigital/eleventy-bricks)
+    - import/symlink by default, but allow to copy and override as needed
+    - no sample html/njk/css/js/etc. files -- just the bare essentials
+- **One-click deployment to Netlify** (or any similar platform)
+- **CMS included** (Sveltia CMS)
+- **Tailwind included** (with Typography plugin!)
+
+### Quick Start
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/sveleven)
 
