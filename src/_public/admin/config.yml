@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: YOUR_USER/REPO # @TODO: replace with your own repo!
+  branch: main
+
+# Global configuration
+media_folder: /src/_public/media
+public_folder: /media
+output:
+  omit_empty_optional_fields: true
+
+# Simple folder collection similar to https://sveltiacms.app/en/docs/start#manual-installation
+collections:
+  - name: content
+    label: Content
+    folder: /src
+    slug: "{{fields._slug}}"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string, required: false }
+      - { label: Body, name: body, widget: markdown, required: false }
