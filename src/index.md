@@ -7,11 +7,11 @@ A truly minimal, one-click Eleventy starter (with CMS included!)
 ## Killer Features
 
 - **Thin-client architecture**
-    - delegate as much as possible to optional reusable utility package [eleventy-bricks](https://github.com/anydigital/eleventy-bricks)
-    - import/symlink by default, but allow to copy and override as needed
-    - no sample html/njk/css/js/etc. files -- just the bare essentials
+  - delegate as much as possible to optional reusable utility package [eleventy-bricks](https://github.com/anydigital/eleventy-bricks)
+  - import/symlink by default, but allow to copy and override as needed
+  - no sample html/njk/css/js/etc. files -- just the bare essentials
 - **One-click deployment to Netlify** (or any similar platform)
-- **CMS included** (Sveltia CMS)
+- **CMS included** ([sveltia-cms](https://github.com/sveltia/sveltia-cms))
 - **Tailwind included** (with Typography plugin!)
 
 ### Quick Start
@@ -28,6 +28,10 @@ npm run stage # Build and serve production version locally
 
 Ready to deploy! 🚀
 
-## License
+## Why "Sveleven"?
+
+"Sveleven" is simply a portmanteau of ["<u>Sve</u>ltia CMS"](https://github.com/sveltia/sveltia-cms) and ["E<u>leven</u>ty"](https://github.com/11ty/eleventy) -- two great open-source projects that work together seamlessly.
+
+### License
 
 MIT
