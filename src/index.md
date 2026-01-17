@@ -29,22 +29,22 @@ Ready to deploy! 🚀
 
 ```
 ./
-├── eleventy.config.js      # default 11ty config by `eleventy-bricks` (linked)
-├── netlify.toml            # default Netlify config
-├── package.json            # default dependencies
-├── do/package.json         # default npm scripts by `eleventy-bricks` (linked)
-└── src/                    # 11ty `input` dir
-    ├── index.md            # your home page (editable via CMS!)
-    ├── src.yml             # default layout config
-    ├── _data/site.yml      # your site-wide data (title, etc.)
-    ├── _template/          # 11ty `includes` dir
-    │   ├── bricks/         # default Nunjucks `bricks` (linked)
-    │   ├── __layout.njk    # your layout template
-    │   └── styles.css      # default Tailwind CSS with your styles
-    └── _public/            # your static files (for passthrough copy)
-        └── admin/          # Sveltia CMS
-            ├── config.yml  # your CMS config
-            └── index.html  # default CMS UI (linked)
+├── eleventy.config.js        # default 11ty config by `eleventy-bricks` (linked)
+├── netlify.toml              # default Netlify config
+├── package.json              # default dependencies
+├── do/package.json           # default npm scripts by `eleventy-bricks` (linked)
+└── src/                      # default 11ty `input` dir
+    ├── index.md            # YOUR home page (editable via CMS!)
+    ├── src.yml               # default layout config
+    ├── _data/site.yml      # YOUR site-wide data (title, etc.)
+    ├── _template/            # default 11ty `includes` dir
+    │   ├── bricks/           # default Nunjucks `bricks` (linked)
+    │   ├── __layout.njk    # YOUR layout template
+    │   └── styles.css        # default Tailwind CSS [with YOUR styles]
+    └── _public/              # default 11ty static files dir
+        └── admin/            # default Sveltia CMS dir
+            ├── config.yml  # YOUR CMS config
+            └── index.html    # default CMS UI (linked)
 ```
 
 ## Why "Sveleven"?
