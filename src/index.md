@@ -1,6 +1,6 @@
 # Sveleven
 
-A truly minimal, one-click Eleventy starter (with CMS included!)
+Ultra-lightweight, one-click Eleventy starter (with Tailwind & CMS included!)
 
 <div class="flex gap-2 not-prose">
   <img src="https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c">
