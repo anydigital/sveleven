@@ -18,9 +18,9 @@ A truly minimal, one-click Eleventy starter (with CMS included!)
 ## Local Development
 
 ```sh
-npm install # Install dependencies
-npm start # Start dev server
-npm run stage # Build and serve production version locally
+npm install    # install dependencies
+npm start      # start dev server
+npm run stage  # test production version locally
 ```
 
 Ready to deploy! 🚀
