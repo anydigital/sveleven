@@ -2,6 +2,11 @@
 
 A truly minimal, one-click Eleventy starter (with CMS included!)
 
+<div class="flex gap-2 not-prose">
+  <img src="https://img.shields.io/github/v/release/anydigital/sveleven?include_prereleases">
+  <img src="https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c">
+</div>
+
 ### Killer Features
 
 - **"Thin client" architecture** (thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for heavy-lifting)

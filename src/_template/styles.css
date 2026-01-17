@@ -11,7 +11,7 @@
   mark {
     @apply bg-teal-200;
   }
-  ul li a img {
+  li img {
     display: inline-block;
     margin: 0 !important;
   }
