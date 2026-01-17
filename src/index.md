@@ -10,13 +10,13 @@ Ultra-lightweight, one-click Eleventy starter (with Tailwind & CMS included!)
 
 ### Killer Features
 
-1. **"Thin client" architecture**
+1. **"Thin client" architecture** <br>
    <sup>thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for heavy-lifting</sup>
-2. **CMS included**
-   <sup>[sveltia-cms](https://github.com/sveltia/sveltia-cms) — a modern Netlify/Decap successor</sup>
-3. **Tailwind CSS included**
+2. **CMS included** <br>
+   <sup>[sveltia-cms](https://github.com/sveltia/sveltia-cms), a modern Netlify/Decap successor</sup>
+3. **Tailwind CSS included** <br>
    <sup>with Typography plugin</sup>
-4. **One-click deployment to Netlify**
+4. **One-click deployment to Netlify** <br>
    <sup>or any similar platform</sup>
 
 ### Quick Start
