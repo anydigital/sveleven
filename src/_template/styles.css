@@ -5,12 +5,17 @@
 
 /* Custom styles go below */
 @layer base {
+  h1 {
+    margin-bottom: 0.5em !important;
+  }
+  /* @TODO: move to Bricks CSS */
   h2 {
     margin-top: 2.5em !important;
   }
   mark {
     @apply bg-teal-200;
   }
+  /* @TODO: move to Bricks CSS */
   li img {
     display: inline-block;
     margin: 0 !important;
