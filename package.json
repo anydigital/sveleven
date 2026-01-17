@@ -1,7 +1,7 @@
 {
   "name": "@anydigital/sveleven",
   "version": "1.0.0-alpha.1",
-  "description": "A truly minimal, one-click Eleventy starter (with CMS included!)",
+  "description": "Ultra-lightweight, one-click Eleventy starter (with Tailwind & CMS included!)",
   "private": true,
   "type": "module",
   "workspaces": [
