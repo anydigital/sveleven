@@ -4,8 +4,6 @@
 @plugin '@tailwindcss/typography';
 
 /* Custom styles go below */
-@layer components {
-  mark {
-    @apply bg-teal-200;
-  }
+mark {
+  @apply bg-teal-200;
 }
