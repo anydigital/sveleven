@@ -6,13 +6,10 @@ A truly minimal, one-click Eleventy starter (with CMS included!)
 
 ## Killer Features
 
-- **Thin-client architecture**
-  - delegate as much as possible to optional reusable utility package [eleventy-bricks](https://github.com/anydigital/eleventy-bricks)
-  - import/symlink by default, but allow to copy and override as needed
-  - no sample html/njk/css/js/etc. files -- just the bare essentials
+- **"Thin client" architecture** (thanks to [eleventy-bricks](https://github.com/anydigital/eleventy-bricks))
+- **CMS included** ([sveltia-cms](https://github.com/sveltia/sveltia-cms), a modern Netlify/Decap successor)
+- **Tailwind CSS included** (with Typography plugin)
 - **One-click deployment to Netlify** (or any similar platform)
-- **CMS included** ([sveltia-cms](https://github.com/sveltia/sveltia-cms))
-- **Tailwind included** (with Typography plugin!)
 
 ### Quick Start
 
@@ -27,6 +24,30 @@ npm run stage # Build and serve production version locally
 ```
 
 Ready to deploy! 🚀
+
+### Project Structure
+
+```
+./
+└── src/ -- default 11ty input dir
+    └── _data/
+        └── site.yml -- default 11ty config to set site-wide data
+    └── _public/ -- default 11ty static files dir (for passthrough copy)
+        └── admin/ -- Sveltia CMS
+            ├── config.yml -- default CMS config
+            └── index.html -- symlink to default CMS UI `eleventy-bricks/src/admin/index.html`
+    └── _template/
+        ├── bricks/ -- symlink to default Nunjucks `bricks/bricks`
+        ├── __layout.njk -- default layout template
+        └── styles.css -- default Tailwind CSS with Typography plugin
+    ├── index.md -- this exact README file as a sample home page (fully editable via CMS!)
+    └── src.yml -- default 11ty config to set layout for all pages
+└── do/
+    ├── package.json -- symlink to default npm scripts `eleventy-bricks/src/do/package.json`
+├── package.json
+├── eleventy.config.js -- symlink to default `eleventy-bricks/src/eleventy.config.js`
+└── netlify.toml -- default Netlify config
+```
 
 ## Why "Sveleven"?
 
