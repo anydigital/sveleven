@@ -4,6 +4,15 @@
 @plugin '@tailwindcss/typography';
 
 /* Custom styles go below */
-mark {
-  @apply bg-teal-200;
+@layer base {
+  h2 {
+    margin-top: 2.5em !important;
+  }
+  mark {
+    @apply bg-teal-200;
+  }
+  ul li a img {
+    display: inline-block;
+    margin: 0 !important;
+  }
 }

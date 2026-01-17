@@ -2,8 +2,6 @@
 
 A truly minimal, one-click Eleventy starter (with CMS included!)
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
-
 ### Killer Features
 
 - **"Thin client" architecture** (thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for heavy-lifting)
@@ -19,11 +17,12 @@ A truly minimal, one-click Eleventy starter (with CMS included!)
 
 ```sh
 npm install    # install dependencies
-npm start      # start dev server
+npm start      # start development
 npm run stage  # test production version locally
+               # ready to deploy! 🚀
 ```
 
-Ready to deploy! 🚀
+CMS will be available locally at `http://localhost:8080/admin/` (or similar port)
 
 ### Project Structure
 
@@ -51,10 +50,9 @@ Ready to deploy! 🚀
 
 "Sveleven" is simply a portmanteau of ["<mark>Sve</mark>ltia CMS"](https://github.com/sveltia/sveltia-cms) and ["<mark>Eleven</mark>ty"](https://github.com/11ty/eleventy) -- two great open-source projects that work together seamlessly.
 
-### Featured In
+### More Info
 
-https://sveltiacms.app/en/docs/start#eleventy
-
-### License
-
-MIT
+- Ask questions and share ideas: https://github.com/orgs/anydigital/discussions
+- Featured in: https://sveltiacms.app/en/docs/start#eleventy
+- Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
+- License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
