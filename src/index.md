@@ -47,7 +47,7 @@ Ready to deploy! 🚀
             └── index.html    # default CMS UI (linked)
 ```
 
-## Why "Sveleven"?
+### Why "Sveleven"?
 
 "Sveleven" is simply a portmanteau of ["<mark>Sve</mark>ltia CMS"](https://github.com/sveltia/sveltia-cms) and ["<mark>Eleven</mark>ty"](https://github.com/11ty/eleventy) -- two great open-source projects that work together seamlessly.
 
