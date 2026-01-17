@@ -4,7 +4,7 @@ A truly minimal, one-click Eleventy starter (with CMS included!)
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
 
-## Killer Features
+### Killer Features
 
 - **"Thin client" architecture** (thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for heavy-lifting)
 - **CMS included** ([sveltia-cms](https://github.com/sveltia/sveltia-cms), a modern Netlify/Decap successor)
@@ -15,7 +15,7 @@ A truly minimal, one-click Eleventy starter (with CMS included!)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/sveleven)
 
-### Local Development
+## Local Development
 
 ```sh
 npm install # Install dependencies
