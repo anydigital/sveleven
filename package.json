@@ -1,6 +1,6 @@
 {
   "name": "@anydigital/sveleven",
-  "version": "1.0.0-dev",
+  "version": "1.0.0-alpha.1",
   "description": "A truly minimal, one-click Eleventy starter (with CMS included!)",
   "private": true,
   "type": "module",
