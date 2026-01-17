@@ -31,17 +31,17 @@ Ready to deploy! 🚀
 ./
 └── src/ -- default 11ty input dir
     └── _data/
-        └── site.yml -- default 11ty config to set site-wide data
-    └── _public/ -- default 11ty static files dir (for passthrough copy)
+        └── site.yml -- site-wide data (title, etc.)
+    └── _public/ -- static files (passthrough copy)
         └── admin/ -- Sveltia CMS
-            ├── config.yml -- default CMS config
-            └── index.html -- symlink to default CMS UI `eleventy-bricks/src/admin/index.html`
+            ├── config.yml
+            └── index.html -- symlink to default `eleventy-bricks/src/admin/index.html`
     └── _template/
-        ├── bricks/ -- symlink to default Nunjucks `bricks/bricks`
+        ├── bricks/ -- symlink to default Nunjucks `bricks`
         ├── __layout.njk -- default layout template
         └── styles.css -- default Tailwind CSS with Typography plugin
-    ├── index.md -- this exact README file as a sample home page (fully editable via CMS!)
-    └── src.yml -- default 11ty config to set layout for all pages
+    ├── index.md -- sample home page (editable via CMS!)
+    └── src.yml -- default layout config
 └── do/
     └── package.json -- symlink to default npm scripts `eleventy-bricks/src/do/package.json`
 ├── package.json
