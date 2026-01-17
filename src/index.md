@@ -43,7 +43,7 @@ Ready to deploy! 🚀
     ├── index.md -- this exact README file as a sample home page (fully editable via CMS!)
     └── src.yml -- default 11ty config to set layout for all pages
 └── do/
-    ├── package.json -- symlink to default npm scripts `eleventy-bricks/src/do/package.json`
+    └── package.json -- symlink to default npm scripts `eleventy-bricks/src/do/package.json`
 ├── package.json
 ├── eleventy.config.js -- symlink to default `eleventy-bricks/src/eleventy.config.js`
 └── netlify.toml -- default Netlify config
