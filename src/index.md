@@ -10,10 +10,14 @@ Ultra-lightweight, one-click Eleventy starter (with Tailwind & CMS included!)
 
 ### Killer Features
 
-- **"Thin client" architecture** (thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for heavy-lifting)
-- **CMS included** ([sveltia-cms](https://github.com/sveltia/sveltia-cms), a modern Netlify/Decap successor)
-- **Tailwind CSS included** (with Typography plugin)
-- **One-click deployment to Netlify** (or any similar platform)
+1. **"Thin client" architecture**
+   <sup>thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for heavy-lifting</sup>
+2. **CMS included**
+   <sup>[sveltia-cms](https://github.com/sveltia/sveltia-cms) — a modern Netlify/Decap successor</sup>
+3. **Tailwind CSS included**
+   <sup>with Typography plugin</sup>
+4. **One-click deployment to Netlify**
+   <sup>or any similar platform</sup>
 
 ### Quick Start
 
@@ -54,7 +58,7 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 ### Why "Sveleven"?
 
-"Sveleven" is simply a portmanteau of ["<mark>Sve</mark>ltia CMS"](https://github.com/sveltia/sveltia-cms) and ["<mark>Eleven</mark>ty"](https://github.com/11ty/eleventy) -- two great open-source projects that work together seamlessly.
+"Sveleven" is simply a portmanteau of ["<mark>Sve</mark>ltia CMS"](https://github.com/sveltia/sveltia-cms) and ["<mark>Eleven</mark>ty"](https://github.com/11ty/eleventy) — two great open-source projects that work together seamlessly.
 
 ### More Info
 

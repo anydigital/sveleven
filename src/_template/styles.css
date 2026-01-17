@@ -12,6 +12,9 @@
   h2 {
     margin-top: 2.5em !important;
   }
+  ol {
+    @apply md:grid md:grid-cols-2;
+  }
   mark {
     @apply bg-teal-200;
   }
