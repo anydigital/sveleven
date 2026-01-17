@@ -6,6 +6,6 @@
 /* Custom styles go below */
 @layer components {
   mark {
-    @apply bg-yellow-200;
+    @apply bg-teal-200;
   }
 }
