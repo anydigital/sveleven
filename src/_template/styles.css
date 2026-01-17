@@ -1,6 +1,11 @@
-@import 'tailwindcss' source(none);
+@import "tailwindcss" source(none);
 @source '../../src*/**/*.{njk,md}';
 
 @plugin '@tailwindcss/typography';
 
 /* Custom styles go below */
+@layer components {
+  mark {
+    @apply bg-yellow-200;
+  }
+}

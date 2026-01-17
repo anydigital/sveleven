@@ -30,7 +30,7 @@ Ready to deploy! 🚀
 
 ## Why "Sveleven"?
 
-"Sveleven" is simply a portmanteau of ["<u>Sve</u>ltia CMS"](https://github.com/sveltia/sveltia-cms) and ["E<u>leven</u>ty"](https://github.com/11ty/eleventy) -- two great open-source projects that work together seamlessly.
+"Sveleven" is simply a portmanteau of ["<mark>Sve</mark>ltia CMS"](https://github.com/sveltia/sveltia-cms) and ["<mark>Eleven</mark>ty"](https://github.com/11ty/eleventy) -- two great open-source projects that work together seamlessly.
 
 ### License
 
