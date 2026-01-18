@@ -1,0 +1,15 @@
+{% capture content_for_header %}{% bricksDependencies site.dependencies %}{% endcapture %}
+{% render 'bricks/__html-begin', content_for_header: content_for_header %}
+
+<main id="main" class="flex flex-col justify-center">
+  <article class="prose xl:prose-xl breakout max-w-6xl !py-[3em]">
+    {{ content }}
+  </article>
+</main>
+
+<footer class="prose text-center">
+  Made with <i class="fa-solid fa-heart fa-sm"></i>＋<i class="fa-solid fa-mug-hot relative -top-[0.1em]"></i>
+  by <a href="https://any.digital/" target="_blank"><em>Any</em>digital</a> © 2025–{{ site.year }}
+</footer>
+
+{% render 'bricks/__html-end' %}
