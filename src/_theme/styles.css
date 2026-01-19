@@ -1,7 +1,7 @@
 @import "tailwindcss" source(none);
-@source '../../src*/**/*.{liquid,md}';
+@source "../../src*/**/*.{liquid,njk,md}";
 
-@plugin '@tailwindcss/typography';
+@plugin "@tailwindcss/typography";
 
 /* Custom styles go below */
 @layer base {
