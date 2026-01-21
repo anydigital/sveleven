@@ -1,4 +1,4 @@
-{% render 'bricks/__html-begin', site: site, title: title %}
+{% include 'bricks/__html-begin' %}
 
 <main id="main" class="flex flex-col justify-center">
   <article class="prose xl:prose-xl breakout max-w-6xl !py-[3em]">
@@ -12,4 +12,4 @@
   by <a href="https://any.digital/" target="_blank"><em>Any</em>digital</a> © 2025–{{ site.year }}
 </footer>
 
-{% render 'bricks/__html-end' %}
+{% include 'bricks/__html-end' %}

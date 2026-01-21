@@ -48,7 +48,7 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
     ├── _data/site.yml      # YOUR site-wide data (title, etc.)
     ├── _template/            # default 11ty `includes` dir
     │   ├── bricks/           # default Nunjucks `bricks` 🔗
-    │   ├── __layout.njk    # YOUR layout template
+    │   ├── __layout.liquid # YOUR layout template
     │   └── styles.css        # default Tailwind CSS [with YOUR styles]
     └── _public/              # default 11ty static files dir
         └── admin/            # default Sveltia CMS dir
