@@ -58,7 +58,12 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 ### Why "Sveleven"?
 
-"Sveleven" is simply a portmanteau of ["<mark>Sve</mark>ltia CMS"](https://github.com/sveltia/sveltia-cms) and ["<mark>Eleven</mark>ty"](https://github.com/11ty/eleventy) — two great open-source projects that work together seamlessly.
+<pre>
+SVELEVEN = <mark>SV</mark>eltia CMS
+           + <mark>ELEVEN</mark>ty SSG
+</pre>
+
+"Sveleven" is simply a portmanteau of "[Sveltia CMS](https://github.com/sveltia/sveltia-cms)" and "[Eleventy SSG](https://github.com/11ty/eleventy)" — two great open-source projects that work together seamlessly.
 
 ### More Info
 
