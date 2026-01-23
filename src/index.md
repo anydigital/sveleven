@@ -25,30 +25,39 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
 
 ### Project Structure
 
-These 5 of `YOUR` files is all you need to manage:
+All you need for _YOUR_ website is basically these 4 files:
 
 ```treeview
 ./
-├── eleventy.config.js        # default 11ty config 🔗 from `eleventy-bricks`
-├── package.json              # default dependencies
-├── do/package.json           # default npm scripts 🔗 from `eleventy-bricks`
-└── src/                      # default 11ty `input` dir
-    ├── index.md  <— YOUR home page (editable via CMS!)    |
-    ├── src.yml               # default layout config
-    ├── _data/site.yml  <— YOUR site-wide data (title, etc.)    |
-    ├── _theme/               # default 11ty `includes` dir
-    │   ├── bricks/           # default components 🔗 from `bricks`
-    │   ├── __layout.*  <— YOUR layout template    |
-    │   └── styles.css  <— YOUR styles    # default Tailwind CSS included
-    └── _public/              # default 11ty static files dir
-        └── admin/            # default Sveltia CMS dir
-            ├── config.yml  <— YOUR CMS config    |
-            └── index.html    # default CMS html 🔗 from `eleventy-bricks`
+└── src/
+    ├── _data/site.yml              # YOUR site-wide metadata
+    ├── _theme/__layout.**          # YOUR .liquid or .nkj template
+    ├── _theme/styles.css           # YOUR styles (with Tailwind)
+    └── _public/admin/config.yml    # YOUR CMS config
 ```
 
-All `default` files are either super small, or automagically symlinked from https://github.com/anydigital/eleventy-bricks.
+All other files are either simple defaults, or automagically symlinked from https://github.com/anydigital/eleventy-bricks and https://github.com/anydigital/bricks:
 
-And yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction! ✨
+<figure class="invert">
+
+```treeview
+./
+├── eleventy.config.js          # default 11ty config 🔗
+├── netlify.toml                # default Netlify config
+├── package.json                # default npm dependencies
+├── do/package.json             # default npm scripts 🔗
+└── src/                        # default 11ty `input` dir
+    ├── *.md                    # CMS-editable content
+    ├── src.yml                 # default layout config
+    ├── _theme/                 # default 11ty `includes` dir
+    │   ├── bricks/             # generic components (bricks) 🔗
+    └── _public/                # default 11ty static files
+        └── admin/index.html    # default Sveltia CMS html 🔗
+```
+
+</figure>
+
+Yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction! ✨
 
 ### Local Development
 

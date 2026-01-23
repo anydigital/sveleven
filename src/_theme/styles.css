@@ -8,33 +8,41 @@
   h1 {
     margin-bottom: 0.5em !important;
   }
-  /* @TODO: move to Bricks CSS */
-  h2 {
-    margin-top: 2.5em !important;
-  }
   ol {
     @apply md:grid md:grid-cols-2;
   }
   mark {
     @apply bg-teal-200;
   }
-  /* @TODO: move to Bricks CSS */
+  /*** @TODO: move to Bricks CSS ***/
+  h2 {
+    margin-top: 2.5em !important;
+  }
+  a {
+    hyphens: none;
+  }
   li a > img {
     display: inline-block;
     margin: 0 !important;
   }
-  /* Prism @TODO: move to Bricks CSS */
+  .invert {
+    ::-webkit-scrollbar {
+      filter: invert(1) !important;
+    }
+  }
+  /* Prism */
   .token.treeview-part {
     .entry-line {
       width: 2.5em !important;
       opacity: 25%;
     }
     .entry-name:last-child {
-      opacity: 35%;
+      opacity: 50%;
 
       &::before {
         display: none !important;
       }
     }
   }
+  /*** end @TODO ***/
 }
