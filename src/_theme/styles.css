@@ -25,7 +25,7 @@
   }
   /* Prism @TODO: move to Bricks CSS */
   .token.treeview-part .entry-line {
-    width: 2em !important;
+    width: 2.5em !important;
   }
   .token.treeview-part .entry-name:last-child {
     opacity: 40%;
