@@ -19,7 +19,7 @@
     @apply bg-teal-200;
   }
   /* @TODO: move to Bricks CSS */
-  li img {
+  li a > img {
     display: inline-block;
     margin: 0 !important;
   }
