@@ -1,5 +1,11 @@
 title: Sveleven
 styles:
+  - https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css
+  - https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.css
   - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css
   - https://cdn.jsdelivr.net/npm/@anydigital/bricks@^1.0.0-alpha/dist/bricks.min.css
   - /styles.css
+scripts:
+  - https://cdn.jsdelivr.net/npm/prismjs@1/prism.min.js
+  - https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js
+  - https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.js

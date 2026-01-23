@@ -40,24 +40,23 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 ### Project Structure
 
-```
+```treeview
 ./
-├── eleventy.config.js        # default 11ty config by `eleventy-bricks` 🔗
-├── netlify.toml              # default Netlify config
-├── package.json              # default dependencies
-├── do/package.json           # default npm scripts by `eleventy-bricks` 🔗
-└── src/                      # default 11ty `input` dir
-    ├── index.md            # YOUR home page (editable via CMS!)
-    ├── src.yml               # default layout config
-    ├── _data/site.yml      # YOUR site-wide data (title, etc.)
-    ├── _template/            # default 11ty `includes` dir
-    │   ├── bricks/           # default Liquid `bricks` 🔗
-    │   ├── __layout.liquid # YOUR layout template
-    │   └── styles.css        # default Tailwind CSS [with YOUR styles]
-    └── _public/              # default 11ty static files dir
-        └── admin/            # default Sveltia CMS dir
-            ├── config.yml  # YOUR CMS config
-            └── index.html    # default CMS html by `eleventy-bricks` 🔗
+├── eleventy.config.js           # default 11ty config 🔗 from `eleventy-bricks`
+├── package.json                 # default dependencies
+├── do/package.json              # default npm scripts 🔗 from `eleventy-bricks`
+└── src/                         # default 11ty `input` dir
+    ├── index.md  <— YOUR home page (editable via CMS!)    |
+    ├── src.yml                  # default layout config
+    ├── _data/site.yml  <— YOUR site-wide data (title, etc.)    |
+    ├── _theme/                  # default 11ty `includes` dir
+    │   ├── bricks/              # default components 🔗 from `bricks`
+    │   ├── __layout.*  <— YOUR layout template    |
+    │   └── styles.css  <— YOUR styles    # default Tailwind CSS included
+    └── _public/                 # default 11ty static files dir
+        └── admin/               # default Sveltia CMS dir
+            ├── config.yml  <— YOUR CMS config    |
+            └── index.html       # default CMS html 🔗 from `eleventy-bricks`
 ```
 
 ### Why "Sveleven"?

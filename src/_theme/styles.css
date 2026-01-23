@@ -23,4 +23,15 @@
     display: inline-block;
     margin: 0 !important;
   }
+  /* Prism @TODO: move to Bricks CSS */
+  .token.treeview-part .entry-line {
+    width: 2em !important;
+  }
+  .token.treeview-part .entry-name:last-child {
+    opacity: 40%;
+
+    &::before {
+      display: none !important;
+    }
+  }
 }
