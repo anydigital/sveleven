@@ -28,12 +28,11 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
 All you need for _YOUR_ website is basically these 4 files:
 
 ```treeview
-./
-└── src/
-    ├── _data/site.yml              # YOUR site-wide metadata
-    ├── _theme/__layout.**          # YOUR .liquid or .nkj template
-    ├── _theme/styles.css           # YOUR styles (with Tailwind)
-    └── _public/admin/config.yml    # YOUR CMS config
+./src/
+├── _data/site.yml              # YOUR site-wide metadata
+├── _theme/__layout.**          # YOUR .liquid or .nkj template
+├── _theme/styles.css           # YOUR styles (with Tailwind)
+└── _public/admin/config.yml    # YOUR CMS config
 ```
 
 All other files are either simple defaults, or automagically symlinked from https://github.com/anydigital/eleventy-bricks and https://github.com/anydigital/bricks:
