@@ -48,7 +48,7 @@ These 5 of `YOUR` files is all you need to manage:
 
 All `default` files are either super small, or automagically symlinked from https://github.com/anydigital/eleventy-bricks.
 
-And yes, `eleventy.config.js` is symlinked too, so no more JavaScript config to touch! ✨
+And yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction! ✨
 
 ### Local Development
 
