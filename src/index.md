@@ -50,8 +50,9 @@ All other files are either simple defaults, or automagically symlinked from http
     ├── *.md                    # CMS-editable content
     ├── src.yml                 # default layout config
     ├── _theme/                 # default 11ty `includes` dir
-    │   ├── bricks/             # generic components (bricks) 🔗
+    │   └── bricks/             # generic components (bricks) 🔗
     └── _public/                # default 11ty static files
+        ├── media/              # CMS-managed media files
         └── admin/index.html    # default Sveltia CMS html 🔗
 ```
 
