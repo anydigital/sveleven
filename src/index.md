@@ -20,12 +20,12 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
    <sup>with Typography plugin</sup>
 5. **Multisite support**  
    <sup>thanks to symlink-based setup</sup>
-6. **One-click deployment**  
+6. **One-click start**  
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/sveleven)
 
 ### Project Structure
 
-These 5 files marked `YOURS` is all you need to manage:
+These 5 of `YOUR` files is all you need to manage:
 
 ```treeview
 ./
