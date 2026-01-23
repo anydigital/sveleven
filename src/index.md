@@ -4,7 +4,7 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
 
 <div class="flex gap-2 not-prose">
   <img src="https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c">
-  <img src="https://img.shields.io/github/v/release/anydigital/sveleven?include_prereleases&color=white">
+  <img src="https://img.shields.io/github/v/release/anydigital/sveleven?include_prereleases&color=white&">
   <a href="https://github.com/anydigital/sveleven"><img src="https://img.shields.io/github/stars/anydigital/sveleven"></a>
 </div>
 
