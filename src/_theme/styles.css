@@ -24,14 +24,17 @@
     margin: 0 !important;
   }
   /* Prism @TODO: move to Bricks CSS */
-  .token.treeview-part .entry-line {
-    width: 2.5em !important;
-  }
-  .token.treeview-part .entry-name:last-child {
-    opacity: 40%;
+  .token.treeview-part {
+    .entry-line {
+      width: 2.5em !important;
+      opacity: 25%;
+    }
+    .entry-name:last-child {
+      opacity: 35%;
 
-    &::before {
-      display: none !important;
+      &::before {
+        display: none !important;
+      }
     }
   }
 }

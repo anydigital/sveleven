@@ -12,22 +12,44 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
 
 1. **"Thin client" architecture**
    <sup>thanks to [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for zero-config</sup>
-2. **One-click deployment to Netlify**
-   <sup>or any similar platform</sup>
+2. **Dual template support**
+   <sup>`.liquid` or `.njk`, choice is yours</sup>
 3. **CMS included**
    <sup>[sveltia-cms](https://github.com/sveltia/sveltia-cms), a modern Netlify/Decap successor</sup>
 4. **Tailwind CSS included**
    <sup>with Typography plugin</sup>
-5. **Dual template support**
-   <sup>`.liquid` and/or `.njk`</sup>
-6. **Multisite support**
+5. **Multisite support**
    <sup>thanks to symlink-based setup</sup>
+6. **One-click deployment**
+   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/sveleven)
 
-### Quick Start
+### Project Structure
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/sveleven)
+These 5 files marked `YOURS` is all you need to manage:
 
-## Local Development
+```treeview
+./
+├── eleventy.config.js        # default 11ty config 🔗 from `eleventy-bricks`
+├── package.json              # default dependencies
+├── do/package.json           # default npm scripts 🔗 from `eleventy-bricks`
+└── src/                      # default 11ty `input` dir
+    ├── index.md  <— YOUR home page (editable via CMS!)    |
+    ├── src.yml               # default layout config
+    ├── _data/site.yml  <— YOUR site-wide data (title, etc.)    |
+    ├── _theme/               # default 11ty `includes` dir
+    │   ├── bricks/           # default components 🔗 from `bricks`
+    │   ├── __layout.*  <— YOUR layout template    |
+    │   └── styles.css  <— YOUR styles    # default Tailwind CSS included
+    └── _public/              # default 11ty static files dir
+        └── admin/            # default Sveltia CMS dir
+            ├── config.yml  <— YOUR CMS config    |
+            └── index.html    # default CMS html 🔗 from `eleventy-bricks`
+```
+
+- All other files are either super small, or automatically symlinked from https://github.com/anydigital/eleventy-bricks
+- And yes, `eleventy.config.js` is symlinked too, so no more JavaScript config to touch! ✨
+
+### Local Development
 
 ```sh
 npm install    # install dependencies
@@ -38,28 +60,15 @@ npm run stage  # test production version locally
 
 CMS will be available locally at `http://localhost:8080/admin/` (or similar port)
 
-### Project Structure
+## More Info
 
-```treeview
-./
-├── eleventy.config.js           # default 11ty config 🔗 from `eleventy-bricks`
-├── package.json                 # default dependencies
-├── do/package.json              # default npm scripts 🔗 from `eleventy-bricks`
-└── src/                         # default 11ty `input` dir
-    ├── index.md  <— YOUR home page (editable via CMS!)    |
-    ├── src.yml                  # default layout config
-    ├── _data/site.yml  <— YOUR site-wide data (title, etc.)    |
-    ├── _theme/                  # default 11ty `includes` dir
-    │   ├── bricks/              # default components 🔗 from `bricks`
-    │   ├── __layout.*  <— YOUR layout template    |
-    │   └── styles.css  <— YOUR styles    # default Tailwind CSS included
-    └── _public/                 # default 11ty static files dir
-        └── admin/               # default Sveltia CMS dir
-            ├── config.yml  <— YOUR CMS config    |
-            └── index.html       # default CMS html 🔗 from `eleventy-bricks`
-```
+- Fork, try, and contribute back: https://github.com/anydigital/sveleven
+- Ask questions and share ideas: https://github.com/orgs/anydigital/discussions
+- Featured in: https://sveltiacms.app/en/docs/start#eleventy
+- Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
+- License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
 
-### Why "Sveleven"?
+### PS: Why "Sveleven"?
 
 <pre>
 SVELEVEN = <mark>SV</mark>eltia CMS
@@ -67,11 +76,3 @@ SVELEVEN = <mark>SV</mark>eltia CMS
 </pre>
 
 "Sveleven" is simply a portmanteau of "[Sveltia CMS](https://github.com/sveltia/sveltia-cms)" and "[Eleventy SSG](https://github.com/11ty/eleventy)" — two great open-source projects that work together seamlessly.
-
-### More Info
-
-- Fork, try, and contribute back: https://github.com/anydigital/sveleven
-- Ask questions and share ideas: https://github.com/orgs/anydigital/discussions
-- Featured in: https://sveltiacms.app/en/docs/start#eleventy
-- Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
-- License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
