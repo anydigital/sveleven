@@ -1,0 +1,12 @@
+{% set _ = {
+  site: site,
+  page: page,
+  title: title
+} %}
+{% renderFile 'src/_theme/bricks/__html-begin.liquid', _ %}
+
+<main class="prose">
+  {{ content | safe }}
+</main>
+
+{% renderFile 'src/_theme/bricks/__html-end.liquid', _ %}
