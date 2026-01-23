@@ -46,7 +46,7 @@ These 5 of `YOUR` files is all you need to manage:
             └── index.html    # default CMS html 🔗 from `eleventy-bricks`
 ```
 
-All other files are either super small, or automatically symlinked from https://github.com/anydigital/eleventy-bricks.
+All `default` files are either super small, or automagically symlinked from https://github.com/anydigital/eleventy-bricks.
 
 And yes, `eleventy.config.js` is symlinked too, so no more JavaScript config to touch! ✨
 
