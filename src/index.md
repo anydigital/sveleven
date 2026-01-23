@@ -10,17 +10,17 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
 
 ### Killer Features
 
-1. **"Thin client" architecture**
+1. **"Thin client" architecture**  
    <sup>thanks to [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for zero-config</sup>
-2. **Dual template support**
+2. **Dual template support**  
    <sup>`.liquid` or `.njk`, choice is yours</sup>
-3. **CMS included**
+3. **CMS included**  
    <sup>[sveltia-cms](https://github.com/sveltia/sveltia-cms), a modern Netlify/Decap successor</sup>
-4. **Tailwind CSS included**
+4. **Tailwind CSS included**  
    <sup>with Typography plugin</sup>
-5. **Multisite support**
+5. **Multisite support**  
    <sup>thanks to symlink-based setup</sup>
-6. **One-click deployment**
+6. **One-click deployment**  
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/sveleven)
 
 ### Project Structure
