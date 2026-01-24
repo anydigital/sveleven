@@ -84,13 +84,13 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 ---
 
-## Info
+## More Info
 
 - GitHub repo: https://github.com/anydigital/sveleven
+- Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
 - Featured in:
   - https://11tybundle.dev/starters/
   - https://sveltiacms.app/en/docs/start#eleventy
-- Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
 - License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
 
 ### PS: Why "Sveleven"?
