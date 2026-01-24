@@ -25,7 +25,9 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
 
 ---
 
-## Project Structure
+## First Things First
+
+### Project Structure
 
 All you need for _YOUR_ website is basically these 4 files:
 
@@ -61,7 +63,7 @@ All other files are either simple defaults, or automagically symlinked from http
 
 Yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction!&nbsp;✨
 
-## Local Development
+### Local Development
 
 ```sh
 npm install    # install dependencies
@@ -74,10 +76,18 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 ---
 
-## More Info
+## *Any* Questions?
+
+- Sveleven question, or rough idea? https://github.com/orgs/anydigital/discussions
+  - Bug report, or specific suggestion? https://github.com/anydigital/sveleven/issues
+    - Else? 11ty's https://discord.gg/qTVJvrWF4
+
+---
+
+## Info
 
 - Fork, try, and contribute back: https://github.com/anydigital/sveleven
-- Ask questions and share ideas: https://github.com/orgs/anydigital/discussions
+
 - Featured in:
   - https://11tybundle.dev/starters/
   - https://sveltiacms.app/en/docs/start#eleventy
