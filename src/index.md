@@ -59,7 +59,7 @@ All other files are either simple defaults, or automagically symlinked from http
 
 </figure>
 
-Yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction! ✨
+Yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction!&nbsp;✨
 
 ## Local Development
 
