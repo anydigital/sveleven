@@ -8,7 +8,7 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
   <a href="https://github.com/anydigital/sveleven"><img src="https://img.shields.io/github/stars/anydigital/sveleven"></a>
 </div>
 
-### Killer Features
+## Killer Features
 
 1. **"Thin client" architecture**  
    <sup>thanks to [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for zero-config</sup>
@@ -23,7 +23,9 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
 6. **One-click start**  
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/sveleven)
 
-### Project Structure
+---
+
+## Project Structure
 
 All you need for _YOUR_ website is basically these 4 files:
 
@@ -59,7 +61,7 @@ All other files are either simple defaults, or automagically symlinked from http
 
 Yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction! ✨
 
-### Local Development
+## Local Development
 
 ```sh
 npm install    # install dependencies
@@ -82,7 +84,7 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 - Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
 - License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
 
-#### PS: Why "Sveleven"?
+### PS: Why "Sveleven"?
 
 <pre>
 SVELEVEN = <mark>SV</mark>eltia CMS
