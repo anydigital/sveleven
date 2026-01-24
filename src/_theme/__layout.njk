@@ -5,11 +5,13 @@
 } %}
 {% renderFile 'src/_theme/bricks/__html-begin.liquid', _ %}
 
-<main class="prose">
-  {{ content | safe }}
+<main>
+  <article class="prose xl:prose-xl breakout">
+    {{ content | safe }}
+  </article>
 </main>
 
-<footer class="prose text-center">
+<footer class="prose">
   {{ site.footer | renderContent('liquid', site) | safe }}
 </footer>
 

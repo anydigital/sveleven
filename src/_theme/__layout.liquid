@@ -1,12 +1,12 @@
 {% include 'bricks/__html-begin' %}
 
-<main id="main" class="flex flex-col justify-center">
-  <article class="prose xl:prose-xl breakout max-w-6xl !py-[3em]">
+<main>
+  <article class="prose xl:prose-xl breakout">
     {{ content }}
   </article>
 </main>
 
-<footer class="prose text-center">
+<footer class="prose">
   {{ site.footer | renderContent: 'liquid', site }}
 </footer>
 

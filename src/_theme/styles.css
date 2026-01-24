@@ -5,8 +5,14 @@
 
 /* Custom styles go below */
 @layer base {
-  h1 {
-    margin-bottom: 0.5em !important;
+  main {
+    @apply flex flex-col justify-center;
+  }
+  article {
+    @apply !max-w-6xl !py-[3em];
+  }
+  footer {
+    @apply text-center;
   }
   ol {
     @apply md:grid md:grid-cols-2;
@@ -15,6 +21,9 @@
     @apply bg-teal-200;
   }
   /*** @TODO: move to Bricks CSS ***/
+  h1 {
+    margin-bottom: 0.5em !important;
+  }
   h2 {
     margin-top: 2.5em !important;
   }
