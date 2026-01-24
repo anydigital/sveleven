@@ -80,7 +80,7 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 - Sveleven question, or rough idea? https://github.com/orgs/anydigital/discussions
   - Bug report, or specific suggestion? https://github.com/anydigital/sveleven/issues
-    - Else? [https://discord.gg/qTVJvrWF4](discord/eleventy/help)
+    - Else? [discord/eleventy/help](https://discord.gg/qTVJvrWF4)
 
 ---
 
