@@ -70,6 +70,8 @@ npm run stage  # test production version locally
 
 CMS will be available locally at `http://localhost:8080/admin/` (or similar port).
 
+---
+
 ## More Info
 
 - Fork, try, and contribute back: https://github.com/anydigital/sveleven
@@ -80,7 +82,7 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 - Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
 - License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
 
-### PS: Why "Sveleven"?
+#### PS: Why "Sveleven"?
 
 <pre>
 SVELEVEN = <mark>SV</mark>eltia CMS

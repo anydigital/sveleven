@@ -6,10 +6,7 @@
 /* Custom styles go below */
 @layer base {
   main {
-    @apply flex flex-col justify-center;
-  }
-  article {
-    @apply !max-w-6xl !py-[3em];
+    @apply flex flex-col justify-center py-[3em];
   }
   footer {
     @apply text-center;
@@ -20,38 +17,8 @@
   mark {
     @apply bg-teal-200;
   }
-  /*** @TODO: move to Bricks CSS ***/
-  h1 {
-    margin-bottom: 0.5em !important;
-  }
-  h2 {
-    margin-top: 2.5em !important;
-  }
-  a {
-    hyphens: none;
-  }
   li a > img {
     display: inline-block;
     margin: 0 !important;
   }
-  .invert {
-    ::-webkit-scrollbar {
-      filter: invert(1) !important;
-    }
-  }
-  /* Prism */
-  .token.treeview-part {
-    .entry-line {
-      width: 2.5em !important;
-      opacity: 25%;
-    }
-    .entry-name:last-child {
-      opacity: 50%;
-
-      &::before {
-        display: none !important;
-      }
-    }
-  }
-  /*** end @TODO ***/
 }
