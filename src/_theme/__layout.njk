@@ -9,4 +9,8 @@
   {{ content | safe }}
 </main>
 
+<footer class="prose text-center">
+  {{ site.footer | renderContent('liquid', site) | safe }}
+</footer>
+
 {% renderFile 'src/_theme/bricks/__html-end.liquid', _ %}
