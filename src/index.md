@@ -45,18 +45,18 @@ All other files are either simple defaults, or automagically symlinked from http
 
 ```treeview
 ./
-├── eleventy.config.js          # default 11ty config 🔗
+├── eleventy.config.js          # symlinked 11ty config 🔗
 ├── netlify.toml                # default Netlify config
 ├── package.json                # default npm dependencies
-├── do/package.json             # default npm scripts 🔗
+├── do/package.json             # symlinked npm scripts 🔗
 └── src/                        # default 11ty `input` dir
     ├── *.md                    # CMS-editable content
     ├── src.yml                 # default layout config
     ├── _theme/                 # default 11ty `includes` dir
-    │   └── bricks/             # generic components (bricks) 🔗
+    │   └── bricks/             # symlinked components (bricks) 🔗
     └── _public/                # default 11ty static files
         ├── media/              # CMS-managed media files
-        └── admin/index.html    # default Sveltia CMS html 🔗
+        └── admin/index.html    # symlinked Sveltia CMS 🔗
 ```
 
 </figure>
