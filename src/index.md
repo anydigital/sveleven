@@ -39,7 +39,7 @@ All you need for _YOUR_ website is basically these 4 files:
 └── _public/admin/config.yml    # YOUR CMS config
 ```
 
-All other files are either simple defaults, or automagically symlinked from https://github.com/anydigital/eleventy-bricks and https://github.com/anydigital/bricks:
+All other files are either simple defaults, or automagically symlinked from https://github.com/anydigital/eleventy-bricks and https://github.com/anydigital/bricks :
 
 <figure class="invert">
 
@@ -76,11 +76,11 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 ---
 
-## *Any* Questions?
+## _Any_ Questions?
 
 - Sveleven question, or rough idea? https://github.com/orgs/anydigital/discussions
   - Bug report, or specific suggestion? https://github.com/anydigital/sveleven/issues
-    - Else? [discord/eleventy/help](https://discord.gg/qTVJvrWF4)
+    - Else? 11ty's Discord: https://discord.gg/qTVJvrWF4
 
 ---
 

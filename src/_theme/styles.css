@@ -9,7 +9,7 @@
     @apply flex flex-col justify-center py-[3em];
   }
   footer {
-    @apply text-center;
+    text-align: center;
   }
   ol {
     @apply md:grid md:grid-cols-2;
@@ -19,5 +19,10 @@
   }
   li a > img {
     display: inline-block;
+  }
+}
+@layer utilities {
+  .prose {
+    padding: 1rem;
   }
 }
