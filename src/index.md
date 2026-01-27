@@ -4,7 +4,7 @@ Ultra-lightweight, modern Eleventy starter (with Tailwind v4 & Sveltia CMS inclu
 
 <div class="flex gap-2 not-prose">
   <img src="https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c">
-  <img src="https://img.shields.io/github/v/release/anydigital/sveleven?include_prereleases&color=white">
+  <img src="https://img.shields.io/github/v/release/anydigital/sveleven?color=white">
   <a href="https://github.com/anydigital/sveleven"><img src="https://img.shields.io/github/stars/anydigital/sveleven"></a>
 </div>
 
@@ -25,17 +25,15 @@ Ultra-lightweight, modern Eleventy starter (with Tailwind v4 & Sveltia CMS inclu
 
 ---
 
-## First Things First
+## All You Need
 
-### Project Structure
-
-All you need for _YOUR_ website is basically these 4 files:
+All you need to personalize _YOUR_ website is basically these 4 files:
 
 ```treeview
 ./src/
 ├── _data/site.yml              # YOUR site-wide metadata
-├── _theme/__layout.**          # YOUR .njk or .liquid template
-├── _theme/styles.css           # YOUR styles (with Tailwind)
+├── _theme/__layout.**          # YOUR template (.njk or .liquid)
+├── _theme/styles.css           # YOUR styles (with Tailwind v4)
 └── _public/admin/config.yml    # YOUR CMS config
 ```
 
@@ -63,6 +61,8 @@ All other files are either simple defaults, or automagically symlinked from http
 
 Yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction!&nbsp;✨
 
+However, you are welcome to copy any of the symlinked files over to your project, and modify them as needed.
+
 ### Local Development
 
 ```sh
@@ -78,15 +78,22 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 ## More Info
 
-- Repository: https://github.com/anydigital/sveleven
-  - Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
-- Featured in: https://11tybundle.dev/starters/ and https://sveltiacms.app/en/docs/start#eleventy
-- Support:
-  - _Any_ questions and ideas: https://github.com/orgs/anydigital/discussions
-  - Specific change requests and bug reports: https://github.com/anydigital/sveleven/issues
-  - General 11ty support: https://www.11ty.dev/blog/discord/
-  - General Sveltia CMS support: https://sveltiacms.app/en/support
-- License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
+Repository: https://github.com/anydigital/sveleven
+
+Found it useful? Donate a ~~dollar~~ star: &nbsp;[![](https://img.shields.io/github/stars/anydigital/sveleven)](https://github.com/anydigital/sveleven)
+
+Featured in:
+
+- https://11tybundle.dev/starters/
+- https://sveltiacms.app/en/docs/start#eleventy
+
+Support:
+
+- _Any_ questions and ideas: https://github.com/orgs/anydigital/discussions
+- Specific change requests and bug reports: https://github.com/anydigital/sveleven/issues
+- Community support: https://www.11ty.dev/blog/discord/, https://sveltiacms.app/en/support
+
+License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
 
 ### PS: Why "Sveleven"?
 
