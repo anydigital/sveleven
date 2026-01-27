@@ -1,7 +1,7 @@
 {
   "name": "@anydigital/sveleven",
-  "version": "0.5.2",
-  "description": "Ultra-lightweight, modern Eleventy starter (with Tailwind v4 & Sveltia CMS included!)",
+  "version": "0.6.0",
+  "description": "Ultra-lightweight, modern Eleventy v4 starter (with Tailwind & CMS included!)",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -18,10 +18,10 @@
     "serve": "^14.2.5"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^4.0.0-alpha.6",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@anydigital/bricks": "^0.21.2",
-    "@anydigital/eleventy-bricks": "^0.22.1",
+    "@anydigital/eleventy-bricks": "^0.23.0",
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "js-yaml": "^4.1.1",

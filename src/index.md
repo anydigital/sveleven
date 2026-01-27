@@ -1,6 +1,6 @@
 # Sveleven
 
-Ultra-lightweight, modern Eleventy starter (with Tailwind v4 & Sveltia CMS included!)
+Ultra-lightweight, modern Eleventy v4 starter (with Tailwind & CMS included!)
 
 <div class="flex gap-2 not-prose">
   <img src="https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c">
@@ -10,17 +10,19 @@ Ultra-lightweight, modern Eleventy starter (with Tailwind v4 & Sveltia CMS inclu
 
 ## Killer Features
 
-1. **"Thin client" architecture**  
+1. **Eleventy v4 by default**
+   <sup>both v4 (default) and v3 supported</sup>
+2. **"Thin client" architecture**  
    <sup>thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for reusability</sup>
-2. **Dual template support**  
-   <sup>`.njk` or `.liquid`, choice is yours</sup>
-3. **Sveltia CMS included**  
-   <sup>modern Decap/Netlify CMS successor</sup>
-4. **Tailwind v4 included**  
+3. **Tailwind v4 included**  
    <sup>with Typography plugin</sup>
-5. **Multisite support**  
+4. **Sveltia CMS included**  
+   <sup>modern Decap/Netlify CMS successor</sup>
+5. **Dual template support**  
+   <sup>`.njk` or `.liquid`, choice is yours</sup>
+6. **Multisite support**  
    <sup>thanks to symlink-based setup</sup>
-6. **One-click start**  
+7. **One-click start**  
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/sveleven)
 
 ---
