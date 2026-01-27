@@ -1,6 +1,6 @@
 # Sveleven
 
-Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
+Ultra-lightweight, modern Eleventy starter (with Tailwind v4 & Sveltia CMS included!)
 
 <div class="flex gap-2 not-prose">
   <img src="https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c">
@@ -11,11 +11,11 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
 ## Killer Features
 
 1. **"Thin client" architecture**  
-   <sup>thanks to [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for zero-config</sup>
+   <sup>thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for intelligence</sup>
 2. **Dual template support**  
    <sup>`.njk` or `.liquid`, choice is yours</sup>
-3. **CMS included**  
-   <sup>[sveltia-cms](https://github.com/sveltia/sveltia-cms), a Netlify/Decap CMS successor</sup>
+3. **Sveltia CMS included**  
+   <sup>modern Decap/Netlify CMS successor</sup>
 4. **Tailwind v4 included**  
    <sup>with Typography plugin</sup>
 5. **Multisite support**  
@@ -85,6 +85,7 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
   - _Any_ questions and ideas: https://github.com/orgs/anydigital/discussions
   - Specific change requests and bug reports: https://github.com/anydigital/sveleven/issues
   - General 11ty support: https://www.11ty.dev/blog/discord/
+  - General Sveltia CMS support: https://sveltiacms.app/en/support
 - License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
 
 ### PS: Why "Sveleven"?

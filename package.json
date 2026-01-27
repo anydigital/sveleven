@@ -1,7 +1,7 @@
 {
   "name": "@anydigital/sveleven",
   "version": "0.5.1",
-  "description": "Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)",
+  "description": "Ultra-lightweight, modern Eleventy starter (with Tailwind v4 & Sveltia CMS included!)",
   "private": true,
   "type": "module",
   "workspaces": [
