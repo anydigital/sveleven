@@ -13,10 +13,10 @@ Ultra-lightweight, zero-config Eleventy starter (with Tailwind & CMS included!)
 1. **"Thin client" architecture**  
    <sup>thanks to [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for zero-config</sup>
 2. **Dual template support**  
-   <sup>`.liquid` or `.njk`, choice is yours</sup>
+   <sup>`.njk` or `.liquid`, choice is yours</sup>
 3. **CMS included**  
-   <sup>[sveltia-cms](https://github.com/sveltia/sveltia-cms), a modern Netlify/Decap successor</sup>
-4. **Tailwind CSS included**  
+   <sup>[sveltia-cms](https://github.com/sveltia/sveltia-cms), a Netlify/Decap CMS successor</sup>
+4. **Tailwind v4 included**  
    <sup>with Typography plugin</sup>
 5. **Multisite support**  
    <sup>thanks to symlink-based setup</sup>
@@ -76,21 +76,15 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 ---
 
-## _Any_ Questions?
-
-- Sveleven question, or rough idea? https://github.com/orgs/anydigital/discussions
-  - Bug report, or specific suggestion? https://github.com/anydigital/sveleven/issues
-    - Else? 11ty's Discord: https://discord.gg/qTVJvrWF4
-
----
-
 ## More Info
 
-- GitHub repo: https://github.com/anydigital/sveleven
-- Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
-- Featured in:
-  - https://11tybundle.dev/starters/
-  - https://sveltiacms.app/en/docs/start#eleventy
+- Repository: https://github.com/anydigital/sveleven
+  - Found it useful? Donate a ~~dollar~~ star: &nbsp;[![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/sveleven?style=social)](https://github.com/anydigital/sveleven)
+- Featured in: https://11tybundle.dev/starters/ and https://sveltiacms.app/en/docs/start#eleventy
+- Support:
+  - _Any_ questions and ideas: https://github.com/orgs/anydigital/discussions
+  - Specific change requests and bug reports: https://github.com/anydigital/sveleven/issues
+  - General 11ty support: https://www.11ty.dev/blog/discord/
 - License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
 
 ### PS: Why "Sveleven"?
