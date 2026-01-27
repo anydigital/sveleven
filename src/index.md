@@ -11,7 +11,7 @@ Ultra-lightweight, modern Eleventy starter (with Tailwind v4 & Sveltia CMS inclu
 ## Killer Features
 
 1. **"Thin client" architecture**  
-   <sup>thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for intelligence</sup>
+   <sup>thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for reusability</sup>
 2. **Dual template support**  
    <sup>`.njk` or `.liquid`, choice is yours</sup>
 3. **Sveltia CMS included**  
