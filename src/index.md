@@ -34,7 +34,7 @@ All you need for _YOUR_ website is basically these 4 files:
 ```treeview
 ./src/
 ├── _data/site.yml              # YOUR site-wide metadata
-├── _theme/__layout.**          # YOUR .liquid or .nkj template
+├── _theme/__layout.**          # YOUR .njk or .liquid template
 ├── _theme/styles.css           # YOUR styles (with Tailwind)
 └── _public/admin/config.yml    # YOUR CMS config
 ```
