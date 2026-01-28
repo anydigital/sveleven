@@ -59,7 +59,6 @@ All other files are either simple defaults, or automagically symlinked from http
     │   └── bricks.css          🔗 symlinked CSS utilities
     ├── _theme/                 # default 11ty `includes` dir
     │   └── bricks/             🔗 symlinked components (bricks)
-    ├── src.yml                 # default layout config
     └── *.md                    # CMS-editable content
 ```
 
