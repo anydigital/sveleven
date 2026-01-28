@@ -2,15 +2,9 @@
 {% renderFile 'src/_theme/bricks/__html-begin.liquid', _ %}
 
 <main>
-  <article class="prose xl:prose-xl breakout breakout-headings">
-    {# prettier-ignore #}
-    {{ content | safe }}
-  </article>
+  <article class="prose xl:prose-xl breakout breakout-headings">{{ content | safe }}</article>
 </main>
 
-<footer class="prose">
-  {# prettier-ignore #}
-  {{ site.footer | renderContent('liquid', site) | safe }}
-</footer>
+<footer class="prose">{{ site.footer | renderContent('liquid', site) | safe }}</footer>
 
 {% renderFile 'src/_theme/bricks/__html-end.liquid', _ %}

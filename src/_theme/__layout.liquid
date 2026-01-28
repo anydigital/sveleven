@@ -2,15 +2,9 @@
 {% include 'bricks/__html-begin' %}
 
 <main>
-  <article class="prose xl:prose-xl breakout breakout-headings">
-    {% # prettier-ignore %}
-    {{ content }}
-  </article>
+  <article class="prose xl:prose-xl breakout breakout-headings">{{ content }}</article>
 </main>
 
-<footer class="prose">
-  {% # prettier-ignore %}
-  {{ site.footer | renderContent: 'liquid', site }}
-</footer>
+<footer class="prose">{{ site.footer | renderContent: 'liquid', site }}</footer>
 
 {% include 'bricks/__html-end' %}
