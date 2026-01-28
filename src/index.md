@@ -39,6 +39,8 @@ All you need to personalize _YOUR_ website is basically these 4 files:
 └── _public/admin/config.yml    # YOUR CMS config
 ```
 
+### Under the Hood
+
 All other files are either simple defaults, or automagically symlinked from https://github.com/anydigital/eleventy-bricks and https://github.com/anydigital/bricks :
 
 <figure class="invert">
