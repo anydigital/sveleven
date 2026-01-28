@@ -97,6 +97,7 @@ Featured in:
 
 - https://11tybundle.dev/starters/
 - https://sveltiacms.app/en/docs/start#eleventy
+- https://any.digital/tricks/11ty/#best-minimal-11ty-starters
 
 Support:
 
