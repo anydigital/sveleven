@@ -3,11 +3,13 @@
 
 <main>
   <article class="prose xl:prose-xl breakout breakout-headings">
+    {# prettier-ignore #}
     {{ content | safe }}
   </article>
 </main>
 
 <footer class="prose">
+  {# prettier-ignore #}
   {{ site.footer | renderContent('liquid', site) | safe }}
 </footer>
 

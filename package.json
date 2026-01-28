@@ -15,6 +15,7 @@
   "author": "Anton Staroverov",
   "license": "MIT",
   "devDependencies": {
+    "prettier-plugin-jinja-template": "^2.1.0",
     "serve": "^14.2.5"
   },
   "dependencies": {
