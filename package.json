@@ -1,6 +1,6 @@
 {
   "name": "@anydigital/sveleven",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Ultra-lightweight, modern Eleventy v4 starter (with Tailwind & CMS included!)",
   "private": true,
   "type": "module",
