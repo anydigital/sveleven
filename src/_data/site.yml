@@ -12,3 +12,4 @@ scripts:
 footer: |-
   Made with <i class="fa-solid fa-heart fa-sm"></i>＋<i class="fa-solid fa-mug-hot align-text-top"></i>
   by <a href="https://any.digital/" target="_blank"><em>Any</em>digital</a> © 2025–{{ year }}
+gtm_id: YOUR_GTM_ID

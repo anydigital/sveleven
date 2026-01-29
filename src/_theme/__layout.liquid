@@ -1,10 +1,11 @@
-{% # html %}
 {% include 'bricks/__html-begin' %}
 
-<main>
-  <article class="prose xl:prose-xl breakout breakout-headings">{{ content }}</article>
-</main>
+{% if true %}
+  <main>
+    <article class="prose xl:prose-xl breakout breakout-headings">{{ content }}</article>
+  </main>
 
-<footer class="prose">{{ site.footer | renderContent: 'liquid', site }}</footer>
+  <footer class="prose">{{ site.footer | renderContent: 'liquid', site }}</footer>
+{% endif %}
 
 {% include 'bricks/__html-end' %}

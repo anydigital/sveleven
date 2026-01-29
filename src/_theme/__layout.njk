@@ -1,10 +1,9 @@
-{% set _ = { site: site, page: page, title: title } %}
-{% renderFile 'src/_theme/bricks/__html-begin.liquid', _ %}
+{% extends 'bricks/__html.njk' %}
 
-<main>
-  <article class="prose xl:prose-xl breakout breakout-headings">{{ content | safe }}</article>
-</main>
+{% block body %}
+  <main>
+    <article class="prose xl:prose-xl breakout breakout-headings">{{ content | safe }}</article>
+  </main>
 
-<footer class="prose">{{ site.footer | renderContent('liquid', site) | safe }}</footer>
-
-{% renderFile 'src/_theme/bricks/__html-end.liquid', _ %}
+  <footer class="prose">{{ site.footer | renderContent('njk', site) | safe }}</footer>
+{% endblock %}
