@@ -108,7 +108,7 @@ Support:
 
 License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
 
-### PS: Why "Sveleven"?
+### <span class="font-thin">PS:</span> Why "Sveleven"?
 
 <pre>
 SVELEVEN = <mark>SV</mark>eltia CMS
