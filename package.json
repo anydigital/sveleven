@@ -21,8 +21,8 @@
   "dependencies": {
     "@11ty/eleventy": "^4.0.0-alpha.6",
     "@11ty/eleventy-navigation": "^1.0.5",
-    "@anydigital/bricks": "^0.23.0",
-    "@anydigital/eleventy-bricks": "^0.23.2",
+    "@anydigital/bricks": "^0.24.0",
+    "@anydigital/eleventy-bricks": "^0.24.0",
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "js-yaml": "^4.1.1",

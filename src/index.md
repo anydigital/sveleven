@@ -82,7 +82,7 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 
 ## Showcase
 
-[any.digital](https://any.digital/) &nbsp;
+https://any.digital/ &nbsp;
 [<i class="fa-solid fa-plus text-gray-300 hover:text-black"></i>](https://github.com/anydigital/sveleven/edit/main/src/index.md){title="Suggest your website started by Sveleven"}
 
 ---
