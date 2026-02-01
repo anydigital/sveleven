@@ -53,13 +53,12 @@ All other files are either simple defaults, or automagically symlinked from http
 ├── netlify.toml                # default Netlify config
 ├── .prettierrc.json            🔗 symlinked Prettier config
 └── src/                        # default 11ty `input` dir
-    ├── _public/                # default 11ty static files
-    │   ├── media/              # CMS-managed media files
-    │   ├── admin/index.html    🔗 symlinked Sveltia CMS html
-    │   └── bricks.css          🔗 symlinked CSS utilities
     ├── _theme/                 # default 11ty `includes` dir
     │   └── bricks/             🔗 symlinked components (bricks)
-    └── *.md                    # CMS-editable content
+    ├── _public/                # default 11ty static files
+    │   ├── admin/index.html    🔗 symlinked Sveltia CMS html
+    │   ├── media/              # CMS-managed media files
+    └── *.md                    # CMS-managed content
 ```
 
 </figure>
