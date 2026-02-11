@@ -65,7 +65,7 @@ All other files are either simple defaults, or automagically symlinked from http
 
 Yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction!&nbsp;✨
 
-However, you are welcome to copy any of the symlinked files over to your project, and modify them as needed.
+However, you can copy any of the symlinked files over to your project, and modify them as needed.
 
 ### Local Development
 
@@ -97,13 +97,15 @@ Featured in:
 
 - https://11tybundle.dev/starters/
 - https://sveltiacms.app/en/docs/start#eleventy
+- https://sveltiacms.app/en/docs/frameworks/eleventy
 - https://any.digital/tricks/11ty/#starters
 
 Support:
 
-- _Any_ questions and ideas: https://github.com/orgs/anydigital/discussions
-- Specific change requests and bug reports: https://github.com/anydigital/sveleven/issues
-- Community support: https://www.11ty.dev/blog/discord/, https://sveltiacms.app/en/support
+- https://github.com/orgs/anydigital/discussions for questions and ideas
+- https://github.com/anydigital/sveleven/issues for change requests or bug reports
+- https://www.11ty.dev/blog/discord/ for 11ty community support
+- https://sveltiacms.app/en/support for Sveltia CMS community support
 
 License: [MIT](https://github.com/anydigital/sveleven/blob/main/LICENSE)
 
