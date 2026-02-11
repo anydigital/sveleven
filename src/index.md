@@ -15,7 +15,7 @@ Ultra-lightweight, modern Eleventy v4 starter (with Tailwind & CMS included!)
 2. **"Thin client" architecture**  
    <sup>thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for reusability</sup>
 3. **Tailwind v4 included**  
-   <sup>with Typography plugin</sup>
+   <sup>with Typography plugin & [*Any*bricks](https://github.com/anydigital/bricks)</sup>
 4. **Sveltia CMS included**  
    <sup>modern Decap/Netlify CMS successor</sup>
 5. **Dual template support**  
