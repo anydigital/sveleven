@@ -96,6 +96,7 @@ Found it useful? Donate a ~~dollar~~ star: &nbsp;[![](https://img.shields.io/git
 Featured in:
 
 - https://11tybundle.dev/starters/
+- https://11tybundle.dev/blog/11ty-bundle-83/
 - https://sveltiacms.app/en/docs/start#eleventy
 - https://sveltiacms.app/en/docs/frameworks/eleventy
 - https://any.digital/tricks/11ty/#min-starters
