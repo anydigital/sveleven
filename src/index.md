@@ -98,7 +98,7 @@ Featured in:
 - https://11tybundle.dev/starters/
 - https://sveltiacms.app/en/docs/start#eleventy
 - https://sveltiacms.app/en/docs/frameworks/eleventy
-- https://any.digital/tricks/11ty/#starters
+- https://any.digital/tricks/11ty/#min-starters
 
 Support:
 
