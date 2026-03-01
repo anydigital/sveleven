@@ -2,77 +2,35 @@
 
 Ultra-lightweight, modern Eleventy v4 starter (with Tailwind & CMS included!)
 
-<div class="flex gap-2">
-  <img src="https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c">
-  <img src="https://img.shields.io/github/v/release/anydigital/sveleven?color=white">
-  <a href="https://github.com/anydigital/sveleven"><img src="https://img.shields.io/github/stars/anydigital/sveleven"></a>
-</div>
+<img src="https://img.shields.io/github/v/release/anydigital/sveleven?color=black&label=">
+<img src="https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c">
+<a href="https://github.com/anydigital/sveleven"><img src="https://img.shields.io/github/stars/anydigital/sveleven"></a>
 
-## Killer Features
+## Killer features
 
 1. **Eleventy v4 by default**  
-   <sup>both v4 (default) and v3 supported</sup>
+   <sup>both v4 (default) & v3 supported</sup>
 2. **"Thin client" architecture**  
    <sup>thanks [eleventy-bricks](https://github.com/anydigital/eleventy-bricks) for reusability</sup>
 3. **Tailwind v4 included**  
-   <sup>with Typography plugin & [*Any*bricks](https://github.com/anydigital/bricks)</sup>
+   <sup>with Typography plugin & [bricks](https://github.com/anydigital/bricks) theme</sup>
 4. **Sveltia CMS included**  
    <sup>modern Decap/Netlify CMS successor</sup>
-5. **Dual template support**  
-   <sup>`.njk` or `.liquid`, choice is yours</sup>
-6. **Multisite support**  
+5. **Multisite support**  
    <sup>thanks to symlink-based setup</sup>
-7. **One-click start**  
+6. **One-click start**  
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/sveleven)
 
 ---
 
-## All You Need
+## Local development
 
-All you need to personalize _YOUR_ website is basically these 4 files:
-
-```treeview
-./src/
-├── _data/site.yml              # YOUR site-wide metadata
-├── _theme/__layout.**          # YOUR template (.njk or .liquid)
-├── _theme/styles.css           # YOUR styles (with Tailwind v4)
-└── _public/admin/config.yml    # YOUR CMS config
-```
-
-### Under the Hood
-
-All other files are either simple defaults, or automagically symlinked from https://github.com/anydigital/eleventy-bricks and https://github.com/anydigital/bricks :
-
-<figure class="invert">
-
-```treeview
-./
-├── eleventy.config.js          🔗 symlinked 11ty config
-├── do/package.json             🔗 symlinked npm scripts
-├── package.json                # default npm dependencies
-├── netlify.toml                # default Netlify config
-├── .prettierrc.json            🔗 symlinked Prettier config
-└── src/                        # default 11ty `input` dir
-    ├── _theme/                 # default 11ty `includes` dir
-    │   └── bricks/             🔗 symlinked components (bricks)
-    ├── _public/                # default 11ty static files
-    │   ├── admin/index.html    🔗 symlinked Sveltia CMS html
-    │   ├── media/              # CMS-managed media files
-    └── *.md                    # CMS-managed content
-```
-
-</figure>
-
-Yes, `eleventy.config.js` is symlinked too, so no more JavaScript config friction!&nbsp;✨
-
-However, you can copy any of the symlinked files over to your project, and modify them as needed.
-
-### Local Development
+As simple as:
 
 ```sh
-npm install    # install dependencies
-npm start      # start development
-npm run stage  # test production version locally
+npm install    # dependencies
+npm start      # development
+npm run stage  # serve production version locally
                # ready to deploy! 🚀
 ```
 
@@ -87,9 +45,9 @@ https://any.digital/ &nbsp;
 
 ---
 
-## More Info
+## More info
 
-Repository: https://github.com/anydigital/sveleven
+<big>Repository: https://github.com/anydigital/sveleven</big>
 
 Found it useful? Donate a ~~dollar~~ star: [![](https://img.shields.io/github/stars/anydigital/sveleven)](https://github.com/anydigital/sveleven)
 

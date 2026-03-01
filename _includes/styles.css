@@ -3,6 +3,7 @@
 @source "../{_includes,site-*}/**/*.{liquid,njk,md,text,yml}";
 @plugin "@tailwindcss/typography";
 @import "@anydigital/bricks";
+@import "@anydigital/bricks/theme";
 
 /* Custom styles go below */
 @layer base {
@@ -24,7 +25,7 @@
     @apply container p-4 mx-auto;
 
     img {
-      margin: 0;
+      @apply inline-block m-0;
     }
   }
 }
