@@ -22,5 +22,9 @@
 @layer utilities {
   .prose {
     @apply container p-4 mx-auto;
+
+    img {
+      margin: 0;
+    }
   }
 }
