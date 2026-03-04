@@ -72,6 +72,7 @@ Featured in:
 - https://sveltiacms.app/en/docs/frameworks/eleventy
 - https://any.digital/tricks/11ty/#min-starters
 - https://bladeswitch.com starter
+- https://github.com/anydigital/awesome-build-awesome
 
 Support:
 
