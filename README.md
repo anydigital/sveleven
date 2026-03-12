@@ -2,18 +2,18 @@
 
 Modern, lightweight Eleventy v4 starter with Tailwind or Pico.css, CMS and multisiting 🥷
 
-![](https://img.shields.io/github/v/release/anydigital/build-awesome-starter?color=black&label=)
+![](https://img.shields.io/github/v/release/anydigital/build-awesome-starter?color=black&label=&)
 ![](https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c?logo=netlify&labelColor=black&label=)
-[![](https://img.shields.io/github/stars/anydigital/build-awesome-starter?label=GitHub)](https://github.com/anydigital/build-awesome-starter)
+[![](https://img.shields.io/github/stars/anydigital/build-awesome-starter?label=GitHub&)](https://github.com/anydigital/build-awesome-starter)
 
 ## Killer features
 
 1. **Eleventy v4 by default**  
-   <sup>both v4 (default) & v3 supported</sup>
+   <sup>both v4 (Build Awesome) & v3 supported</sup>
 2. **"Thin client" architecture**  
-   <sup>thanks [eleventy-blades](https://github.com/anydigital/eleventy-blades) for reusability</sup>
+   <sup>thanks [Blades[-plugin]](https://github.com/anydigital/eleventy-blades) for reusability</sup>
 3. **Tailwind v4 included**  
-   <sup>with Typography plugin & <i class="fa-solid fa-cube fa-rotate-90"></i> [blades](https://github.com/anydigital/blades) theme</sup>
+   <sup>with Typography plugin & [Blades[-kit]](https://github.com/anydigital/blades)</sup>
 4. **Sveltia CMS included**  
    <sup>modern Decap/Netlify CMS successor</sup>
 5. **Multisite support**  
@@ -28,10 +28,10 @@ Modern, lightweight Eleventy v4 starter with Tailwind or Pico.css, CMS and multi
 **Build Awesome Starter** is an advanced version of 🥷 [*Blade*switch](https://bladeswitch.com/) starter:
 
 - _BUT_ focusing exclusively on Eleventy v4 and adding Tailwind v4 support.
-- It uses same [eleventy-blades](https://github.com/anydigital/eleventy-blades) plugin to symlink `eleventy.config.js` by default (so you don't have to maintain it anymore!)
-- It also uses Nunjucks version of the same _universal_ <i class="fa-solid fa-cube fa-rotate-90"></i> [blades](https://github.com/anydigital/blades) theme:
+- It reuses same [Blades[-plugin]](https://github.com/anydigital/eleventy-blades) to symlink `eleventy.config.js` by default (so you don't have to maintain it anymore!)
+- It also reuses Nunjucks version of the same _universal_ [Blades[-kit]](https://github.com/anydigital/blades):
   - _universal_ means you can switch `.njk` to `.liquid` any time
-  - _universal_ also means you can switch from `tailwind` to `pico.css` or even bare-metal `blades.css`
+  - _universal_ also means you can switch from Tailwind to Pico.css or even bare-metal Blades[.css]
 
 ---
 
@@ -61,17 +61,15 @@ https://any.digital/ &nbsp;
 
 <big>Repository: https://github.com/anydigital/build-awesome-starter</big>
 
-Found it useful? Give a [![](https://img.shields.io/github/stars/anydigital/build-awesome-starter?label=Star)](https://github.com/anydigital/build-awesome-starter)
+Found it useful? Give a [![](https://img.shields.io/github/stars/anydigital/build-awesome-starter?label=Star&)](https://github.com/anydigital/build-awesome-starter)
 
 Featured in:
 
-- https://11tybundle.dev/starters/
-- https://11tybundle.dev/blog/11ty-bundle-83/
+- https://11tybundle.dev/starters/ and [blog](https://11tybundle.dev/blog/11ty-bundle-83/)
 - https://www.11ty.dev/docs/starter/
-- https://sveltiacms.app/en/docs/start#starter-templates
-- https://sveltiacms.app/en/docs/frameworks/eleventy
-- https://any.digital/tricks/11ty/#min-starters
+- https://sveltiacms.app/en/docs/start for [11ty](https://sveltiacms.app/en/docs/frameworks/eleventy)
 - https://bladeswitch.com starter
+- https://any.digital/tricks/build-awesome-11ty/#min-starters
 - https://github.com/anydigital/awesome-11ty-build-awesome
 
 Support:
