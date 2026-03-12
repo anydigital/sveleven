@@ -1,6 +1,6 @@
 {
   "name": "@anydigital/build-awesome-starter",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "Ultra-lightweight, modern Eleventy v4 starter (with Tailwind & CMS included!)",
   "private": true,
   "type": "module",
