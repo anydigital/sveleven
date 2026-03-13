@@ -1,4 +1,4 @@
-# 🥷 Build Awesome Starter &nbsp;![](https://img.shields.io/github/v/release/anydigital/build-awesome-starter?color=black&label=)
+# 🥷 Build Awesome Starter <sup>![](https://img.shields.io/github/v/release/anydigital/build-awesome-starter?label=&color=black)</sup>
 
 Modern, lightweight Eleventy v4 starter with Tailwind or Pico.css, CMS and multisiting 🥷
 
