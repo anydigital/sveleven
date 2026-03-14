@@ -1,6 +1,6 @@
 # 🥷 Build Awesome Starter <sup>![](https://img.shields.io/github/v/release/anydigital/build-awesome-starter?label=&color=black)</sup>
 
-Modern, lightweight Eleventy v4 starter with Tailwind or Pico; Blades, CMS and multisiting 🥷
+Modern, lightweight Eleventy v4 starter with Tailwind or Pico; [Blades](https://github.com/anydigital/blades), CMS and multisiting 🥷
 
 [![](https://img.shields.io/badge/Demo-darkslategray?style=for-the-badge)](https://build.blades.ninja/)
 [![](https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c?logo=netlify&label=Deploy&labelColor=darkslategray&style=for-the-badge)](https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/build-awesome-starter)
