@@ -54,7 +54,7 @@ CMS will be available locally at `http://localhost:8080/admin/` (or similar port
 ## Showcase
 
 https://any.digital/ &nbsp;
-[<i class="fa-solid fa-plus text-gray-300 hover:text-black"></i>](https://github.com/anydigital/build-awesome-starter/edit/main/src/index.md){title="Suggest your website started by Build Awesome Starter"}
+[<i class="fa-solid fa-plus text-gray-300 hover:text-black"></i>](https://github.com/anydigital/build-awesome-starter/edit/main/src/index.md)<!--{title="Suggest your website started by Build Awesome Starter"}-->
 
 ---
 
