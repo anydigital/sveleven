@@ -69,9 +69,10 @@ Featured by:
 - https://11tybundle.dev/starters/ and [blog](https://11tybundle.dev/blog/11ty-bundle-83/)
 - https://www.11ty.dev/docs/starter/
 - https://sveltiacms.app/en/docs/start for [11ty](https://sveltiacms.app/en/docs/frameworks/eleventy)
+- https://blades.ninja/11ty/#min-starters
 - https://bladeswitch.com starter
-- https://any.digital/tricks/build-awesome-11ty/#min-starters
-- https://github.com/anydigital/awesome-11ty-build-awesome
+- https://github.com/hostfurl/minformhf starter
+- 🕶️ [awesome-eleventy](https://github.com/anydigital/awesome-11ty-build-awesome)
 
 Support:
 
